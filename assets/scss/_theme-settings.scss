@@ -1,16 +1,17 @@
 // font family
 
-$main-font: 'Lora', serif;
-$headers-font: 'Source Sans Pro', sans-serif;
+$main-font: 'Avenir', sans-serif;
+$headers-font: 'Helvetica', sans-serif;
 
 // colors
 // you can also change standard Foundation colors
 
-$color-main-dark: #000;
+$color-main-dark: #444;
+$color-main-medium: #999;
 $color-main-light: #ffffff;
 $color-main-contrast: #e51843;
 
-$body-border-width: rem-calc(15);
+$body-border-width: rem-calc(5);
 
 // Foundation overwrites
 //
@@ -26,7 +27,7 @@ $body-font-family: $main-font;
 
 $header-font-family: $headers-font;
 $header-font-weight: 700;
-$header-font-color: $color-main-dark;
+$header-font-color: #555;
 
 $paragraph-font-size: 1.125rem;
 $paragraph-line-height: 1.7;
